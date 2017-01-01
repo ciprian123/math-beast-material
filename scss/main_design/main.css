@@ -72,9 +72,11 @@ img.putere {
   bottom: -150px;
   font-family: 'Open Sans', sans-serif; }
   .card a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
   .card h2 {
-    padding-left: 20px; }
+    padding-left: 20px;
+    color: white; }
   .card .content, .card .card_info {
     width: 95%;
     height: auto;
@@ -92,7 +94,7 @@ input {
   text-align: center;
   margin: auto;
   border: none;
-  border-bottom: 2px solid #37474F;
+  border-bottom: 2px solid #3F51B5;
   width: 310px;
   height: 50px;
   color: #606060;
@@ -139,26 +141,21 @@ button {
   position: relative;
   left: -150px;
   top: 320px;
-  border-radius: 5px;
   margin: auto;
   border: none;
   color: white;
   font-size: 22px;
-  background: #455a64;
+  background: #FF4081;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   button:hover {
-    background: #00E676;
+    background: #303F9F;
     transition: 0.7s; }
   button img {
     padding-top: 5px;
     width: 32px;
     height: 32px; }
-  button:hover {
-    background: #3F51B5;
-    transition: 0.5s; }
 
 .conversie_tab {
   position: relative;
@@ -169,17 +166,16 @@ button {
 #adunare_tab input {
   position: relative;
   left: 90px;
-  border-bottom: 2px solid #37474F; }
+  border-bottom: 2px solid #FFC107; }
   #adunare_tab input:hover {
-    border-bottom-color: #FFA000; }
+    border-bottom-color: #607D8B; }
 #adunare_tab button {
   top: 235px;
   left: -101px;
-  background: #455a64;
+  background: #607D8B;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #adunare_tab button:hover {
     background: #FFA000;
     transition: 0.7s; }
@@ -197,7 +193,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #FFA000;
+  border-bottom: 2px solid #607D8B;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -208,9 +204,9 @@ button {
 #scadere_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #37474F; }
+  border-bottom-color: #009688; }
   #scadere_tab input:hover {
-    border-bottom-color: #009688; }
+    border-bottom-color: #FF4081; }
 #scadere_tab button {
   position: relative;
   top: 235px;
@@ -218,8 +214,7 @@ button {
   background: #455a64;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #scadere_tab button:hover {
     background: #3F51B5;
     transition: 0.7s; }
@@ -258,8 +253,7 @@ button {
   background: #455a64;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #inmultire_tab button:hover {
     background: #FF1744;
     transition: 0.7s; }
@@ -299,8 +293,7 @@ button {
   background: #455a64;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #impartire_tab button:hover {
     background: #311B92;
     transition: 0.7s; }
@@ -339,8 +332,7 @@ button {
   background: #455a64;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #radical_tab button:hover {
     background: #64DD17;
     transition: 0.7s; }
@@ -379,8 +371,7 @@ button {
   background: #455a64;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
-  box-shadow: 0 2px 8px #3d4754; }
+  height: 60px; }
   #ridicare_putere_tab button:hover {
     background: #304FFE;
     transition: 0.7s; }
