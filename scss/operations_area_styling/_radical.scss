@@ -5,7 +5,7 @@
   input {
     position: relative;
     left: 90px;
-    border-bottom-color: #37474F;
+    border-bottom-color: #607D8B;
     &:hover {
       border-bottom-color: #FF5722;
     }
@@ -14,12 +14,12 @@
     position: relative;
     top: 235px;
     left: -101px;
-    background: $button;
+    background: #FF5722;
     border-radius: 100%;
     width: 60px;
     height: 60px;
     &:hover {
-      background: $hover_radical;
+      background: #455A64;
       transition: 0.7s;
     }
     img {

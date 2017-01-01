@@ -14,12 +14,12 @@
     position: relative;
     top: 235px;
     left: -101px;
-    background: $button;
+    background: #FF4081;
     border-radius: 100%;
     width: 60px;
     height: 60px;
     &:hover {
-      background: $hover_scadere;
+      background: #00796B;
       transition: 0.7s;
     }
     img {

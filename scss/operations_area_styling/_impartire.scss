@@ -5,21 +5,21 @@
   input {
     position: relative;
     left: 90px;
-    border-bottom-color: #37474F;
+    border-bottom-color: #F44336;
     &:hover {
-      border-bottom-color: #F44336;
+      border-bottom-color: #9E9E9E;
     }
   }
   button {
     position: relative;
     top: 235px;
     left: -101px;
-    background: $button;
+    background: #9E9E9E;
     border-radius: 100%;
     width: 60px;
     height: 60px;
     &:hover {
-      background: $hover_impartire;
+      background: #D32F2F;
       transition: 0.7s;
     }
     img {
