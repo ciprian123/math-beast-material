@@ -5,9 +5,9 @@
   input {
     position: relative;
     left: 90px;
-    border-bottom-color: $impartire;
+    border-bottom-color: #37474F;
     &:hover {
-      border-bottom-color: $impartire_accent;
+      border-bottom-color: #F44336;
     }
   }
   button {
@@ -41,7 +41,7 @@
     font-size: 20px;
     color: $shadow;
     width: 300px;
-    border-bottom: 2px solid $impartire;
+    border-bottom: 2px solid #F44336;
     position: relative;
     bottom: -15px;
     left: 230px;

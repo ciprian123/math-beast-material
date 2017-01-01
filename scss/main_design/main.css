@@ -92,7 +92,7 @@ input {
   text-align: center;
   margin: auto;
   border: none;
-  border-bottom: 2px solid #FF4081;
+  border-bottom: 2px solid #37474F;
   width: 310px;
   height: 50px;
   color: #606060;
@@ -101,10 +101,9 @@ input {
   left: 40px;
   font-size: 20px;
   padding-left: 5px;
-  background: #1308b9;
   transition: 0.8s; }
   input:hover {
-    border-bottom-color: #304FFE; }
+    border-bottom-color: #FF4081; }
 
 #base {
   position: relative;
@@ -170,9 +169,9 @@ button {
 #adunare_tab input {
   position: relative;
   left: 90px;
-  border-bottom: 2px solid #FF5722; }
+  border-bottom: 2px solid #37474F; }
   #adunare_tab input:hover {
-    border-bottom-color: #18FFFF; }
+    border-bottom-color: #FFA000; }
 #adunare_tab button {
   top: 235px;
   left: -101px;
@@ -182,7 +181,7 @@ button {
   height: 60px;
   box-shadow: 0 2px 8px #3d4754; }
   #adunare_tab button:hover {
-    background: #00E676;
+    background: #FFA000;
     transition: 0.7s; }
   #adunare_tab button img {
     padding-top: 5px;
@@ -198,7 +197,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #FF5722;
+  border-bottom: 2px solid #FFA000;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -209,9 +208,9 @@ button {
 #scadere_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #D50000; }
+  border-bottom-color: #37474F; }
   #scadere_tab input:hover {
-    border-bottom-color: #304FFE; }
+    border-bottom-color: #009688; }
 #scadere_tab button {
   position: relative;
   top: 235px;
@@ -238,7 +237,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #D50000;
+  border-bottom: 2px solid #00796B;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -249,9 +248,9 @@ button {
 #inmultire_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #009688; }
+  border-bottom-color: #37474F; }
   #inmultire_tab input:hover {
-    border-bottom-color: #FF4081; }
+    border-bottom-color: #03A9F4; }
 #inmultire_tab button {
   position: relative;
   top: 235px;
@@ -279,7 +278,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #009688;
+  border-bottom: 2px solid #03A9F4;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -290,9 +289,9 @@ button {
 #impartire_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #FFC107; }
+  border-bottom-color: #37474F; }
   #impartire_tab input:hover {
-    border-bottom-color: #673AB7; }
+    border-bottom-color: #F44336; }
 #impartire_tab button {
   position: relative;
   top: 235px;
@@ -319,7 +318,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #FFC107;
+  border-bottom: 2px solid #F44336;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -330,9 +329,9 @@ button {
 #radical_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #E91E63; }
+  border-bottom-color: #37474F; }
   #radical_tab input:hover {
-    border-bottom-color: #76FF03; }
+    border-bottom-color: #FF5722; }
 #radical_tab button {
   position: relative;
   top: 235px;
@@ -359,7 +358,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #E91E63;
+  border-bottom: 2px solid #FF5722;
   position: relative;
   bottom: -15px;
   left: 230px;
@@ -370,7 +369,7 @@ button {
 #ridicare_putere_tab input {
   position: relative;
   left: 90px;
-  border-bottom-color: #00dc00; }
+  border-bottom-color: #37474F; }
   #ridicare_putere_tab input:hover {
     border-bottom-color: #00BCD4; }
 #ridicare_putere_tab button {
@@ -400,7 +399,7 @@ button {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
-  border-bottom: 2px solid #00dc00;
+  border-bottom: 2px solid #00BCD4;
   position: relative;
   bottom: -15px;
   left: 230px;

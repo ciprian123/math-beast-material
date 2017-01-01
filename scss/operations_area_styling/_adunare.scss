@@ -5,9 +5,9 @@
   input {
     position: relative;
     left: 90px;
-    border-bottom: 2px solid #FF5722;
+    border-bottom: 2px solid #37474F;
     &:hover {
-      border-bottom-color: $adunare_accent;
+      border-bottom-color: #FFA000;
     }
   }
   button {
@@ -19,7 +19,7 @@
     height: 60px;
     box-shadow: 0 2px 8px $shadow;
     &:hover {
-      background: #00E676;
+      background: #FFA000;
       transition: 0.7s;
     }
     img {
@@ -40,7 +40,7 @@
     font-size: 20px;
     color: $shadow;
     width: 300px;
-    border-bottom: 2px solid $adunare;
+    border-bottom: 2px solid #FFA000;
     position: relative;
     bottom: -15px;
     left: 230px;

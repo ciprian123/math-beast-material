@@ -5,9 +5,9 @@
   input {
     position: relative;
     left: 90px;
-    border-bottom-color: $putere;
+    border-bottom-color: #37474F;
     &:hover {
-      border-bottom-color: $putere_accent;
+      border-bottom-color: #00BCD4;
     }
   }
   button {
@@ -42,7 +42,7 @@
     font-size: 20px;
     color: $shadow;
     width: 300px;
-    border-bottom: 2px solid $putere;
+    border-bottom: 2px solid #00BCD4;
     position: relative;
     bottom: -15px;
     left: 230px;

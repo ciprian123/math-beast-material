@@ -8,7 +8,7 @@ input {
   text-align: center;
   margin: auto;
   border: none;
-  border-bottom: 2px solid $primary;
+  border-bottom: 2px solid #37474F;
   width: 310px;
   height: 50px;
   color: #606060;
@@ -17,10 +17,9 @@ input {
   left: 40px;
   font-size: 20px;
   padding-left: 5px;
-  background: $light;
   transition: 0.8s;
   &:hover {
-    border-bottom-color: $border_hover;
+    border-bottom-color: #FF4081;
   }
 }
 
