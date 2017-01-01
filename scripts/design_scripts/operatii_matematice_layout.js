@@ -5,8 +5,7 @@ $(document).ready(function(){
     $("header, #alte_informatii").css("background", "#3F51B5");
     $("#menu").css("background", "#FF4081");
     $("#alte_informatii h2, .card a").css("color", "#FF4081");
-    $("#conversie_info").css("background", "#9C27B0");
-    $("header nav").css("background", "#303F9F");
+    $("header nav, #conversie_info").css("background", "#303F9F");
     $("header nav ul li a, .card .content").css("color", "#C5CAE9");
 
 
@@ -18,8 +17,7 @@ $(document).ready(function(){
         $("header, #alte_informatii").css("background", "#3F51B5");
         $("header h1").html("Baze de numeratie");
         $("#alte_informatii h2, .card a").css("color", "#FF4081");
-        $("#conversie_info").css("background", "#9C27B0");
-        $("header nav").css("background", "#303F9F");
+        $("header nav, #conversie_info").css("background", "#303F9F");
         $("header nav ul li a, .card .content").css("color", "#C5CAE9");
     });
 
@@ -31,8 +29,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#FFC107");
        $("header h1").html("Adunarea numerelor");
        $("#alte_informatii h2, .card a").css("color", "#607D8B");
-       $("#adunare_info").css("background", "#0050ef");
-       $("header nav").css("background", "#FFA000");
+       $("header nav, #adunare_info").css("background", "#FFA000");
        $("header nav ul li a, .card .content").css("color", "#FFECB3");
    });
 
@@ -44,8 +41,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#009688");
        $("header h1").html("Scaderea numerelor");
        $("#alte_informatii h2, .card a").css("color", "#FF4081");
-       $("#scadere_info").css("background", "#34495e");
-       $("header nav").css("background", "#00796B");
+       $("header nav, #scadere_info").css("background", "#00796B");
        $("header nav ul li a, .card .content").css("color", "#B2DFDB");
    });
 
@@ -57,8 +53,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#03A9F4");
        $("header h1").html("Inmultirea numerelor");
        $("#alte_informatii h2, .card a").css("color", "#FFC107");
-       $("#inmultire_info").css("background", "#2196F3");
-       $("header nav").css("background", "#0288D1");
+       $("header nav, #inmultire_info").css("background", "#0288D1");
        $("header nav ul li a, .card .content").css("color", "#B3E5FC");
    });
 
@@ -70,8 +65,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#F44336");
        $("header h1").html("Impartirea numerelor");
        $("#alte_informatii h2, .card a").css("color", "#9E9E9E");
-       $("#impartire_info").css("background", "#2ecc71");
-       $("header nav").css("background", "#D32F2F");
+       $("header nav, #impartire_info").css("background", "#D32F2F");
        $("header nav ul li a, .card .content").css("color", "#FFCDD2");
    });
 
@@ -83,8 +77,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#607D8B");
        $("header h1").html("Radicali ai numerelor");
        $("#alte_informatii h2, .card a").css("color", "#FF5722");
-       $("#radical_info").css("background", "#FFB300");
-       $("header nav").css("background", "#455A64");
+       $("header nav, #radical_info").css("background", "#455A64");
        $("header nav ul li a, .card .content").css("color", "#CFD8DC");
    });
 
@@ -96,8 +89,7 @@ $(document).ready(function(){
        $("header, #alte_informatii").css("background", "#00BCD4");
        $("header h1").html("Puteri ale numerelor");
        $("#alte_informatii h2, .card a").css("color", "#FF9800");
-       $("#putere_info").css("background", "#00796B");
-       $("header nav").css("background", "#0097A7");
+       $("header nav, #putere_info").css("background", "#0097A7");
        $("header nav ul li a, .card .content").css("color", "#B2EBF2");
    });
 
