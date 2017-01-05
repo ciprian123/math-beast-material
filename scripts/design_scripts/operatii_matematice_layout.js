@@ -7,7 +7,6 @@ $(document).ready(function(){
     $("header nav").css("background", "#303F9F");
     $("header nav ul li a, .card .content").css("color", "#C5CAE9");
 
-
     // conversie tab event-listener (click)
     $("#conversie").click(function(){
         $("div.conversie_tab, #conversie_info").show();
