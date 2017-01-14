@@ -2,31 +2,31 @@
 
 //imports of colors and DOM sizes, Google fonts, math tabs
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import "../settings_styling/colors";
-@import "../settings_styling/sizes";
-@import "../settings_styling/setari";
+@import "settings_styling/colors";
+@import "settings_styling/sizes";
+@import "settings_styling/setari";
 
 //main design styling
 @import "mainLeftMenu";
 @import "alte_informatii";
 
 //operations area styling
-@import "../operations_area_styling/conversii";
-@import "../operations_area_styling/adunare";
-@import "../operations_area_styling/scadere";
-@import "../operations_area_styling/inmultire";
-@import "../operations_area_styling/impartire";
-@import "../operations_area_styling/radical";
-@import "../operations_area_styling/putere";
+@import "operations_area_styling/conversii";
+@import "operations_area_styling/adunare";
+@import "operations_area_styling/scadere";
+@import "operations_area_styling/inmultire";
+@import "operations_area_styling/impartire";
+@import "operations_area_styling/radical";
+@import "operations_area_styling/putere";
 
 //operations info styling
-@import "../operation_info_styling/adunare_info";
-@import "../operation_info_styling/scadere_info";
-@import "../operation_info_styling/inmultire_info";
-@import "../operation_info_styling/impartire_info";
-@import "../operation_info_styling/radicali_info";
-@import "../operation_info_styling/putere_info";
-@import "../operation_info_styling/conversie_info";
+@import "operation_info_styling/adunare_info";
+@import "operation_info_styling/scadere_info";
+@import "operation_info_styling/inmultire_info";
+@import "operation_info_styling/impartire_info";
+@import "operation_info_styling/radicali_info";
+@import "operation_info_styling/putere_info";
+@import "operation_info_styling/conversie_info";
 
 //basic body styling
 body {
