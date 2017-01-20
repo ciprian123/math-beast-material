@@ -1,3 +1,3 @@
-/**
- * Created by ciprian-dev on 14.01.2017.
- */
+$(document).ready(function() {
+    $("#wrapper, header h1").fadeIn("slow");
+});
