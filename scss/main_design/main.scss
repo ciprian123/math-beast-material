@@ -48,7 +48,6 @@ header {
     right: 20px;
     top: 90px;
     float: right;
-    z-index: 30;
     width: 34px;
     height: 34px;
     border-radius: 100%;
@@ -66,6 +65,7 @@ header {
     height: 60px;
     position: fixed;
     top: 0;
+    z-index: 40;
     ul {
       list-style-type: none;
       text-align: right;
