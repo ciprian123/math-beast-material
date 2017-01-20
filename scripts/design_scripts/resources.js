@@ -1,3 +1,3 @@
 $(document).ready(function() {
-   $("header h1").fadeIn("slow");
+   $("#wrapper .card, header h1").fadeIn("slow");
 });

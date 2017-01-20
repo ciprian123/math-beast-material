@@ -29,13 +29,14 @@ header {
   margin: auto; }
 
 .card {
+  display: none;
   width: 100%;
   height: 270px;
   box-shadow: 0 1px 1px #6f6f6f, 0 1px 1px #595959;
   margin: auto;
   background: white; }
   .card h2 {
-    color: #424242;
+    color: #607D8B;
     padding: 30px 40px 40px 40px; }
   .card .card_content {
     width: 94%;
@@ -47,6 +48,9 @@ header {
     .card .card_content a {
       color: #FFC107;
       text-decoration: none; }
+      .card .card_content a:hover {
+        color: #777878;
+        transition: 1s; }
       .card .card_content a img {
         width: 20px;
         height: 20px;
