@@ -66,5 +66,10 @@ footer {
   background: #424242;
   position: relative;
   top: 980px; }
+  footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px; }
 
 /*# sourceMappingURL=resources.css.map */
