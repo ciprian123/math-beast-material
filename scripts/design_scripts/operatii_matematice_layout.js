@@ -97,8 +97,8 @@ $(document).ready(function(){
     }
 
     function manage_setari_tab() {
-        $(".active").css("background", "none");
         $("div#setari_tab").show();
+        $(".conversie, .adunare, .scadere, .inmultire, .radical, .impartire, .putere").css("background", "none");
         $("#adunare_tab, #scadere_tab, #inmultire_tab, #impartire_tab, #radical_tab, #ridicare_putere_tab, .conversie_tab, #adunare_info, #scadere_info, #inmultire_info, #impartire_info, #conversie_info, #putere_info, #radical_info, #radical_info").hide();
         $("#menu").css("background", "#68EFAD");
         $("header, #alte_informatii").css("background", "#9C27B0");
