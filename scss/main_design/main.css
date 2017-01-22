@@ -34,20 +34,20 @@ img.putere {
     list-style-type: none;
     position: relative;
     right: 40px; }
-    #menu ul li {
+    #menu ul li a {
       color: white;
       font-size: 18px;
       text-align: center; }
-      #menu ul li img {
+      #menu ul li a img {
         width: 28px;
         height: 28px;
         z-index: 11;
-        padding: 17px; }
-        #menu ul li img.putere {
+        padding: 17px 26px 17px 26px; }
+        #menu ul li a img.putere {
           width: 20px;
           height: 20px;
-          padding: 20.5px; }
-      #menu ul li #conversie {
+          padding: 22.5px 30px; }
+      #menu ul li a #conversie {
         z-index: 11; }
 
 #alte_informatii {

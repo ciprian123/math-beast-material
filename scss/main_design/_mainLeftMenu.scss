@@ -15,24 +15,25 @@ img.putere {
     position: relative;
     right: 40px;
     li {
-      color: white;
-      font-size: 18px;
-      text-align: center;
-      img {
-        width: 28px;
-        height: 28px;
-        z-index: 11;
-        padding: 17px;
-        &.putere {
-          width: 20px;
-          height: 20px;
-          padding: 20.5px;
+      a {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        img {
+          width: 28px;
+          height: 28px;
+          z-index: 11;
+          padding: 17px 26px 17px 26px;
+          &.putere {
+            width: 20px;
+            height: 20px;
+            padding: 22.5px 30px;
+          }
         }
-      }
-      #conversie {
-        z-index: 11;
+        #conversie {
+          z-index: 11;
+        }
       }
     }
   }
 }
-
