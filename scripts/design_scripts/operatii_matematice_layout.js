@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
 
     function manage_adunare_tab() {
-        $(".conversie, .adunare, .scadere, .impartire, .putere, .radical").css("background", "none");
+        $(".conversie, .inmultire, .scadere, .impartire, .putere, .radical").css("background", "none");
         $(".adunare").css("background", "#37474F");
         $("div#adunare_tab, #adunare_info").show();
         $("#inmultire_tab, #inmultire_info, #impartire_tab, #impartire_info, #radical_tab, #radical_info, #setari_tab, .conversie_tab, #conversie_info, #ridicare_putere_tab, #putere_info, #scadere_tab, #scadere_info").hide();
