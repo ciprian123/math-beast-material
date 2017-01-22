@@ -13,13 +13,14 @@ header {
   height: 150px;
   position: absolute;
   top: 0;
-  background: #03A9F4;
-  box-shadow: 0 0 10px #333333; }
+  background: #304FFE;
+  box-shadow: 0 0 5px #333333; }
   header h1 {
     display: none;
     color: white;
     text-align: left;
-    margin-left: 40px; }
+    margin-left: 40px;
+    font-weight: 200; }
 
 #wrapper {
   width: 90%;
@@ -36,7 +37,8 @@ header {
   margin: auto;
   background: white; }
   .card h2 {
-    color: #607D8B;
+    color: #424242;
+    font-weight: 100;
     padding: 30px 40px 40px 40px; }
   .card .card_content {
     width: 94%;

@@ -16,13 +16,14 @@ header {
   height: 150px;
   position: absolute;
   top: 0;
-  background: #03A9F4;
-  box-shadow: 0 0 10px #333333;
+  background:  #304FFE;
+  box-shadow: 0 0 5px #333333;
   h1 {
     display: none;
     color: white;
     text-align: left;
     margin-left: 40px;
+    font-weight: 200;
   }
 }
 
@@ -42,7 +43,8 @@ header {
   margin: auto;
   background: white;
   h2 {
-    color: #607D8B;
+    color: #424242;
+    font-weight: 100;
     padding: 30px 40px 40px 40px;
   }
   .card_content {
