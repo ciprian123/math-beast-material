@@ -432,7 +432,8 @@ header {
   position: absolute;
   top: 0;
   box-shadow: 0 0 10px #464646;
-  z-index: 20; }
+  z-index: 20;
+  background: #3F51B5; }
   header img {
     position: absolute;
     right: 20px;
@@ -447,7 +448,8 @@ header {
     height: 60px;
     position: fixed;
     top: 0;
-    z-index: 40; }
+    z-index: 40;
+    background: #303F9F; }
     header nav ul {
       list-style-type: none;
       text-align: right;
