@@ -10,7 +10,7 @@ function getAndPow() {
 
     function getFirstNumber() {
         if ($("#FirstNumberPow").val().length > 0) {
-            numar_1 = Number($("#FirstNumberPow").val());
+            numar_1 = Number($(this).val());
             return Number(numar_1);
         }
         else
@@ -19,7 +19,7 @@ function getAndPow() {
 
     function getSecondNumber() {
         if ($("#SecondNumberPow").val().length > 0) {
-            numar_2 = Number($("#SecondNumberPow").val());
+            numar_2 = Number($(this).val());
             return Number(numar_2);
         }
         else

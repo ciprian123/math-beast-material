@@ -23,7 +23,6 @@ function getAndSolve() {
             return parseInt(base);
     }
 
-
     function conversie(numar, baza) {
         let nr = 0, p = 1, aux = numar;
 
@@ -40,7 +39,6 @@ function getAndSolve() {
         let text = "";
 
         while (numar > 0) {
-
             if (numar % 16 < 10)
                 text += ((numar % 16).toString());
             if (numar % 16 === 10)

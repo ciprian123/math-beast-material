@@ -10,7 +10,7 @@ function getAndMult() {
 
     function getFirstNumber() {
         if ($("#FirstNumberOri").val().length > 0) {
-            numar_1 = Number($("#FirstNumberOri").val());
+            numar_1 = Number($(this).val());
             return Number(numar_1);
         }
         else
@@ -19,7 +19,7 @@ function getAndMult() {
 
     function getSecondNumber() {
         if ($("#SecondNumberOri").val().length > 0) {
-            numar_2 = Number($("#SecondNumberOri").val());
+            numar_2 = Number($(this).val());
             return Number(numar_2);
         }
         else
