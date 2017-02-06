@@ -10,7 +10,7 @@ function getAndAdd() {
 
     function getFirstNumber() {
         if ($("#FirstNumber").val().length > 0) {
-            numar_1 = Number($("#FirstNumber").val());
+            numar_1 = Number($(this).val());
             return Number(numar_1);
         }
         else
@@ -19,7 +19,7 @@ function getAndAdd() {
 
     function getSecondNumber() {
         if ($("#SecondNumber").val().length > 0) {
-            numar_2 = Number($("#SecondNumber").val());
+            numar_2 = Number($(this).val());
             return Number(numar_2);
         }
         else
