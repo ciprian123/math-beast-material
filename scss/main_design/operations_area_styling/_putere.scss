@@ -12,7 +12,7 @@
   }
   button {
     position: relative;
-    top: 235px;
+    top: 205px;
     left: -101px;
     background: #FF9800;
     border-radius: 100%;
@@ -34,7 +34,12 @@
     color: $shadow;
     font-size: 20px;
     position: relative;
-    top: 65px;
+    top: 45px;
+  }
+
+  #SecondNumberPow {
+    position: relative;
+    bottom: -80px;
   }
 
   #rezultatulRidicarii {
@@ -43,7 +48,7 @@
     width: 300px;
     border-bottom: 2px solid #00BCD4;
     position: relative;
-    bottom: -15px;
+    top: 1px;
     left: 230px;
     text-align: center;
   }

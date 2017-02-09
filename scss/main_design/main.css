@@ -136,7 +136,7 @@ input:focus, button:focus {
 
 button {
   position: relative;
-  left: -81px;
+  left: -87px;
   top: 290px;
   margin: auto;
   border: none;
@@ -163,7 +163,7 @@ button {
   #adunare_tab input:hover {
     border-bottom-color: #607D8B; }
 #adunare_tab button {
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #607D8B;
   border-radius: 100%;
@@ -181,14 +181,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#adunare_tab #SecondNumber {
+  position: relative;
+  bottom: -80px; }
 #adunare_tab #rezultatulAdunarii {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #607D8B;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 
@@ -202,7 +205,7 @@ button {
     border-bottom-color: #FF4081; }
 #scadere_tab button {
   position: relative;
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #FF4081;
   border-radius: 100%;
@@ -220,14 +223,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#scadere_tab #SecondNumberM {
+  position: relative;
+  bottom: -80px; }
 #scadere_tab #rezultatulScaderii {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #00796B;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 
@@ -241,7 +247,7 @@ button {
     border-bottom-color: #FFC107; }
 #inmultire_tab button {
   position: relative;
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #FFC107;
   border-radius: 100%;
@@ -260,14 +266,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#inmultire_tab #SecondNumberOri {
+  position: relative;
+  bottom: -80px; }
 #inmultire_tab #rezultatulInmultirii {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #03A9F4;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 
@@ -281,7 +290,7 @@ button {
     border-bottom-color: #9E9E9E; }
 #impartire_tab button {
   position: relative;
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #9E9E9E;
   border-radius: 100%;
@@ -299,14 +308,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#impartire_tab #SecondNumberDiv {
+  position: relative;
+  bottom: -80px; }
 #impartire_tab #rezultatulImpartirii {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #F44336;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 
@@ -320,7 +332,7 @@ button {
     border-bottom-color: #FF5722; }
 #radical_tab button {
   position: relative;
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #FF5722;
   border-radius: 100%;
@@ -338,14 +350,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#radical_tab #SecondNumberR {
+  position: relative;
+  bottom: -80px; }
 #radical_tab #rezultatulRadicalului {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #FF5722;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 
@@ -359,7 +374,7 @@ button {
     border-bottom-color: #FF9800; }
 #ridicare_putere_tab button {
   position: relative;
-  top: 235px;
+  top: 205px;
   left: -101px;
   background: #FF9800;
   border-radius: 100%;
@@ -378,14 +393,17 @@ button {
   color: #3d4754;
   font-size: 20px;
   position: relative;
-  top: 65px; }
+  top: 45px; }
+#ridicare_putere_tab #SecondNumberPow {
+  position: relative;
+  bottom: -80px; }
 #ridicare_putere_tab #rezultatulRidicarii {
   font-size: 20px;
   color: #3d4754;
   width: 300px;
   border-bottom: 2px solid #00BCD4;
   position: relative;
-  bottom: -15px;
+  top: 1px;
   left: 230px;
   text-align: center; }
 

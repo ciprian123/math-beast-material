@@ -11,7 +11,7 @@
     }
   }
   button {
-    top: 235px;
+    top: 205px;
     left: -101px;
     background: #607D8B;
     border-radius: 100%;
@@ -32,7 +32,12 @@
     color: $shadow;
     font-size: 20px;
     position: relative;
-    top: 65px;
+    top: 45px;
+  }
+
+  #SecondNumber {
+    position: relative;
+    bottom: -80px;
   }
 
   #rezultatulAdunarii {
@@ -41,7 +46,7 @@
     width: 300px;
     border-bottom: 2px solid #607D8B;
     position: relative;
-    bottom: -15px;
+    top: 1px;
     left: 230px;
     text-align: center;
   }

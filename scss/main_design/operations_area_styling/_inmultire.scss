@@ -12,7 +12,7 @@
   }
   button {
     position: relative;
-    top: 235px;
+    top: 205px;
     left: -101px;
     background: #FFC107;
     border-radius: 100%;
@@ -34,7 +34,12 @@
     color: $shadow;
     font-size: 20px;
     position: relative;
-    top: 65px;
+    top: 45px;
+  }
+
+  #SecondNumberOri {
+    position: relative;
+    bottom: -80px;
   }
 
   #rezultatulInmultirii {
@@ -43,7 +48,7 @@
     width: 300px;
     border-bottom: 2px solid #03A9F4;
     position: relative;
-    bottom: -15px;
+    top: 1px;
     left: 230px;
     text-align: center;
   }
