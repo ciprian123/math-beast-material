@@ -93,12 +93,12 @@ input {
   border: none;
   border-bottom: 2px solid #3F51B5;
   width: 310px;
-  height: 50px;
+  height: 40px;
   color: #606060;
   position: relative;
   bottom: -126px;
-  left: 40px;
-  font-size: 20px;
+  left: 100px;
+  font-size: 18px;
   padding-left: 5px;
   transition: 0.8s; }
   input:hover {
@@ -106,7 +106,7 @@ input {
 
 #base {
   position: relative;
-  top: 200px;
+  top: 170px;
   z-index: 15; }
 
 input:focus, button:focus {
@@ -114,8 +114,8 @@ input:focus, button:focus {
 
 .solutions {
   position: relative;
-  top: 120px;
-  left: 80px; }
+  top: 80px;
+  left: 140px; }
   .solutions img {
     width: 30px;
     height: 30px;
@@ -131,21 +131,21 @@ input:focus, button:focus {
     width: 300px;
     border-bottom: 2px solid #FF4081;
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     color: #3d4754; }
 
 button {
   position: relative;
-  left: -150px;
-  top: 320px;
+  left: -81px;
+  top: 290px;
   margin: auto;
   border: none;
   color: white;
   font-size: 22px;
   background: #3F51B5;
   border-radius: 100%;
-  width: 60px;
-  height: 60px; }
+  width: 55px;
+  height: 55px; }
   button:hover {
     background: #FF4081;
     transition: 0.7s; }
@@ -153,10 +153,6 @@ button {
     padding-top: 5px;
     width: 32px;
     height: 32px; }
-
-.conversie_tab {
-  position: relative;
-  left: -5000px; }
 
 #adunare_tab #inputAdunare {
   height: 400px; }
