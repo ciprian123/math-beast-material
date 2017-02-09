@@ -10,7 +10,7 @@ function getAndRad() {
 
     function getFirstNumber() {
         if ($("#FirstNumberR").val().length > 0) {
-            numar_1 = Number($(this).val());
+            numar_1 = Number($("#FirstNumberR").val());
             return Number(numar_1);
         }
         else
@@ -19,7 +19,7 @@ function getAndRad() {
 
     function getSecondNumber() {
         if ($("#SecondNumberR").val().length > 0) {
-            numar_2 = Number($(this).val());
+            numar_2 = Number($("#SecondNumberR").val());
             return Number(numar_2);
         }
         else

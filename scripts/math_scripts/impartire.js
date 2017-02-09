@@ -10,7 +10,7 @@ function getAndDiv() {
 
     function getFirstNumber() {
         if ($("#FirstNumberDiv").val().length > 0) {
-            numar_1 = Number($(this).val());
+            numar_1 = Number($("#FirstNumberDiv").val());
             return Number(numar_1);
         }
         else
@@ -19,7 +19,7 @@ function getAndDiv() {
 
     function getSecondNumber() {
         if ($("#SecondNumberDiv").val().length > 0) {
-            numar_2 = Number($(this).val());
+            numar_2 = Number($("#SecondNumberDiv").val());
             return Number(numar_2);
         }
         else
