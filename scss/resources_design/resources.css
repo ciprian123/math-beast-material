@@ -13,7 +13,7 @@ header {
   height: 150px;
   position: absolute;
   top: 0;
-  background: #304FFE;
+  background: #2196F3;
   box-shadow: 0 0 5px #333333; }
   header h1 {
     display: none;
@@ -21,6 +21,18 @@ header {
     text-align: left;
     margin-left: 40px;
     font-weight: 200; }
+  header a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #18FFFF;
+    padding: 15px;
+    position: relative;
+    top: 25px;
+    float: right;
+    margin-right: 50px;
+    z-index: 20;
+    box-shadow: 0 0 5px #6e6e6e; }
 
 #wrapper {
   width: 90%;
@@ -48,7 +60,7 @@ header {
     bottom: 50px;
     font-size: 18px; }
     .card .card_content a {
-      color: #FFC107;
+      color: #18FFFF;
       text-decoration: none; }
       .card .card_content a:hover {
         color: #777878;
