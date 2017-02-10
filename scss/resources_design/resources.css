@@ -69,7 +69,8 @@ header {
         width: 20px;
         height: 20px;
         position: relative;
-        top: 4px; }
+        top: 4px;
+        padding-right: 20px; }
 
 .spacer {
   padding: 10px; }
@@ -79,7 +80,7 @@ footer {
   height: 100px;
   background: #424242;
   position: relative;
-  top: 980px; }
+  top: 1580px; }
   footer p {
     color: white;
     text-align: center;
