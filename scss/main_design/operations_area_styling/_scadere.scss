@@ -10,7 +10,20 @@
       border-bottom-color: #FF4081;
     }
   }
+
+  @-webkit-keyframes button_animation_scd {
+    from {background: #00796B;}
+    to {background: #FF4081;}
+  }
+
+  @keyframes button_animation_scd {
+    from {background: #00796B;}
+    to {background: #FF4081;}
+  }
+
   button {
+    animation: button_animation_scd 6s infinite;
+    -webkit-animation: button_animation_scd 6s infinite;
     position: relative;
     top: 205px;
     left: -101px;

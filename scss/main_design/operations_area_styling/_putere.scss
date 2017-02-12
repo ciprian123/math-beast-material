@@ -10,7 +10,20 @@
       border-bottom-color: #FF9800;
     }
   }
+
+  @-webkit-keyframes button_animation_pow {
+    from {background: #0097A7;}
+    to {background: #FF9800;}
+  }
+
+  @keyframes button_animation_pow {
+    from {background: #0097A7;}
+    to {background: #FF9800;}
+  }
+
   button {
+    animation: button_animation_pow 6s infinite;
+    -webkit-animation: button_animation_pow 6s infinite;
     position: relative;
     top: 205px;
     left: -101px;

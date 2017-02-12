@@ -60,7 +60,19 @@ input:focus, button:focus {
   }
 }
 
+@-webkit-keyframes button_animation_conv {
+  from {background: #303F9F;}
+  to {background: #FF4081;}
+}
+
+@keyframes button_animation_conv {
+  from {background: #303F9F;}
+  to {background: #FF4081;}
+}
+
 button {
+  animation: button_animation_conv 6s infinite;
+  -webkit-animation: button_animation_conv 6s infinite;
   position: relative;
   left: -87px;
   top: 290px;

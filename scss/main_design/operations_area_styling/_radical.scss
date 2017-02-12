@@ -10,7 +10,20 @@
       border-bottom-color: #FF5722;
     }
   }
+
+  @-webkit-keyframes button_animation_rad {
+    from {background: #455A64;}
+    to {background: #FF5722;}
+  }
+
+  @keyframes button_animation_rad {
+    from {background: #455A64;}
+    to {background: #FF5722;}
+  }
+
   button {
+    animation: button_animation_rad 6s infinite;
+    -webkit-animation: button_animation_rad 6s infinite;
     position: relative;
     top: 205px;
     left: -101px;
