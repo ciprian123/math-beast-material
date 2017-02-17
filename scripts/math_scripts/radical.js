@@ -1,6 +1,7 @@
 function getAndRad() {
     let numar_1, numar_2;
     let firePlay = new Audio();
+    let input_gol = "gol";
 
     function fire() {
         firePlay.src = "fire.mp3";
@@ -14,7 +15,7 @@ function getAndRad() {
             return Number(numar_1);
         }
         else
-            return true;
+            return input_gol;
     }
 
     function getSecondNumber() {
@@ -23,23 +24,22 @@ function getAndRad() {
             return Number(numar_2);
         }
         else
-            return true;
+            return input_gol;
     }
 
     numar_1 = getFirstNumber();
     numar_2 = getSecondNumber();
-    if (numar_1 != true && numar_2 != true) {
-        if (numar_2 <= 0)
-            $("#rezultatulRadicalului").html("Ordinul nu este pozitiv!");
-        else if (numar_2 >= 100)
-            $("#rezultatulRadicalului").html("Ordinul maxim este 100!");
+
+    if ((numar_1 == input_gol) && (numar_2 == input_gol))
+        $("#rezultatulRadicalului").html("Campurile sunt goale...");
+    else if (((numar_1 != input_gol) && numar_2 == input_gol) || ((numar_1 == input_gol) && numar_2 != input_gol))
+        $("#rezultatulRadicalului").html("Scrieti inca o valoare...");
+    else {
+        if (numar_2 > 100 || numar_2 < 0)
+            $("#rezultatulRadicalului").html("Ordinul > 0 si < 100");
         else {
-            $("#rezultatulRadicalului").html(Math.pow(numar_1, (1 / numar_2)));
+            $("#rezultatulRadicalului").html(Math.pow(numar_1, 1 / numar_2));
             fire();
         }
     }
-    else if (((numar_1 != true) && numar_2 == true) || ((numar_1 == true) && numar_2 != true))
-        $("#rezultatulRadicalului").html("Scrie valori nenule...");
-    else
-        $("#rezultatulRadicalului").html("Campurile sunt goale...");
 }
